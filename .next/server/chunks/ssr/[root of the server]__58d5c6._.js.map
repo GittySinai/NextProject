@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 87, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/services/quotes.ts"],"sourcesContent":["import axios from 'axios';\r\n\r\nexport async function getQuotes() {\r\n    try {\r\n        const response = await axios.get('https://dummyjson.com/quotes');\r\n        return response.data;\r\n    } catch (error) {\r\n        console.error(\"Error fetching quotes:\", error);\r\n        throw error;\r\n    }\r\n}\r\n"],"names":[],"mappings":";;;AAAA;;AAEO,eAAe;IAClB,IAAI;QACA,MAAM,WAAW,MAAM,qIAAA,CAAA,UAAK,CAAC,GAAG,CAAC;QACjC,OAAO,SAAS,IAAI;IACxB,EAAE,OAAO,OAAO;QACZ,QAAQ,KAAK,CAAC,0BAA0B;QACxC,MAAM;IACV;AACJ"}},
+    {"offset": {"line": 101, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 107, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 111, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 117, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/pages/first-file/page.tsx"],"sourcesContent":["import FirstFile from '@/app/components/FirstFile'\nimport React from 'react'\n\nfunction page() {\n  return (\n    <div>\n      <FirstFile></FirstFile>\n    </div>\n  )\n}\n\nexport default page\n"],"names":[],"mappings":";;;;AAAA;;;AAGA,SAAS;IACP,qBACE,8OAAC;kBACC,cAAA,8OAAC,sIAAA,CAAA,UAAS;;;;;;;;;;AAGhB;uCAEe"}},
+    {"offset": {"line": 138, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 149, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 149, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

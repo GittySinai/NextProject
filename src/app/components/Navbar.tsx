@@ -10,6 +10,7 @@ function Navbar() {
       
       <div className='flex space-x-6'>
         <Link href="/pages/first-file" className='hover:text-gray-200'>First File</Link>
+        <Link href="/pages/cardList" className='hover:text-gray-200'>Users</Link>
         <Link href="/pages/login" className='hover:text-gray-200'>Login</Link>
         <Link href="/pages/services" className='hover:text-gray-200'>Services</Link>
         <Link href="/pages/contact" className='hover:text-gray-200'>Contact</Link>

@@ -1,6 +1,5 @@
 {
-  "/pages/first-file/page": "app/pages/first-file/page.js",
+  "/pages/page": "app/pages/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/pages/login/page": "app/pages/login/page.js",
-  "/pages/contact/page": "app/pages/contact/page.js"
+  "/pages/first-file/page": "app/pages/first-file/page.js"
 }
